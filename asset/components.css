@@ -1,0 +1,92 @@
+/*=========== TABLE OF CONTENTS ===========
+1. Button CSS
+2. Text CSS
+3. Heading CSS
+==========================================*/
+
+/*-------------------------------------
+  1. Button CSS
+--------------------------------------*/
+.ui.button.round {
+  border-radius: var(--radius-sm);
+}
+
+.ui.button.size-xs {
+  height: 58px;
+  padding-left: 34px;
+  padding-right: 34px;
+  font-size: 25px;
+}
+
+.ui.button.fill.teal_200 {
+  background-color: var(--teal_200);
+  color: var(--white_a700);
+}
+
+.ui.button {
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  color: var(--white_a700);
+  font-size: 25px;
+  background-color: var(--teal_200);
+  min-width: 262px;
+  border-radius: var(--radius-sm);
+  @media only screen and (max-width: 1050px) {
+    font-size: 23px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 21px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/*-------------------------------------
+  2. Text CSS
+--------------------------------------*/
+.ui.text.size-textxs {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ui.text.size-texts {
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  @media only screen and (max-width: 1050px) {
+    font-size: 23px;
+  }
+
+  @media only screen and (max-width: 550px) {
+    font-size: 21px;
+  }
+}
+
+.ui.text {
+  color: var(--black_900);
+  font-family: Inter;
+}
+
+/*-------------------------------------
+  3. Heading CSS
+--------------------------------------*/
+.ui.heading.size-headingxs {
+  font-size: 70px;
+  font-weight: 800;
+  font-style: bold;
+  @media only screen and (max-width: 1050px) {
+    font-size: 48px;
+  }
+}
+
+.ui.heading {
+  color: var(--white_a700);
+  font-family: Inter;
+}
